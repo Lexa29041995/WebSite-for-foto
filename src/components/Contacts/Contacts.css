@@ -1,0 +1,27 @@
+.Contacts {
+  flex-direction: column;
+}
+.Contacts .div_with_background {
+  position: relative;
+  top: -150px;
+  background-color: #444;
+  max-width: 100%;
+  padding: 75px;
+}
+.Contacts .contacts_information {
+  position: absolute;
+  top: 210px;
+  justify-content: space-around;
+  padding: 0 8%;
+}
+.Contacts .contacts_img {
+  width: 50%;
+  max-height: 803px;
+}
+.Contacts .contacts_img img {
+  max-width: 100%;
+  width: 535px;
+}
+.Contacts .contacts_text {
+  width: 50%;
+}

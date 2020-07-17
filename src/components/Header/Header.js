@@ -15,20 +15,18 @@ const Header =() => {
                     <Link to ='/'>ГЛАВНАЯ</Link>
                 </li>
                 <li>
-                    <Link to ='/portfolio'>
-                        <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ПОРТФОЛИО
-                            </a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ПОРТФОЛИО
+                        </a>
                         <div class="dropdown-menu open_menu" aria-labelledby="dropdownMenuLink">
-                        <Link to ='/portfolio/svadbu'><li class="dropdown-item">- Свадьбы</li></Link>
-                        <Link to ='/portfolio/lovestory'><li class="dropdown-item">- Love Story</li></Link>
-                        <Link to ='/portfolio/semeinie'><li class="dropdown-item">- Семейные</li></Link>
-                        <Link to ='/portfolio/vipuskniki_9_class'><li class="dropdown-item">- Выпускники 9 класс</li></Link>
-                        <Link to ='/portfolio/vipuskniki_11_class'><li class="dropdown-item">- Выпускники 11 класс</li></Link>
+                            <Link to ='/portfolio/svadbu'><li class="dropdown-item">- Свадьбы</li></Link>
+                            <Link to ='/portfolio/lovestory'><li class="dropdown-item">- Love Story</li></Link>
+                            <Link to ='/portfolio/semeinie'><li class="dropdown-item">- Семейные</li></Link>
+                            <Link to ='/portfolio/vipuskniki_9_class'><li class="dropdown-item">- Выпускники 9 класс</li></Link>
+                            <Link to ='/portfolio/vipuskniki_11_class'><li class="dropdown-item">- Выпускники 11 класс</li></Link>
                         </div>
                         </div>
-                    </Link>
                 </li>
                 <li>
                     <Link to ='/uslugi'>УСЛУГИ</Link>
